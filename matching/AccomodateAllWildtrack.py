@@ -24,24 +24,25 @@ def GetP(I, rvec, tvec):
 def accomoAllWildtrack(view1,view2):
     dataset_name = 'WildTrack'
     if dataset_name == 'WildTrack':
-        path_c4 = '../Dataset/Wildtrack_dataset/Image_subsets/C4_result/alphapose-results_update.json'
-        path_c6 = '../Dataset/Wildtrack_dataset/Image_subsets/C6_result/alphapose-results_update.json'
+        # If error occurs, please adjust path to where you downloaded coresponding files.
+        path_c4 = '../dataset/data_annotation/WildTrack/C_4.json'
+        path_c6 = '../dataset/data_annotation/WildTrack/C_6.json'
        
         
         path3 = ''
         
-        path_c1 = '../Dataset/Wildtrack_dataset/Image_subsets/C1_result/alphapose-results_update.json'
-        path_c3 = '../Dataset/Wildtrack_dataset/Image_subsets/C3_result/alphapose-results_update.json'
+        path_c1 = '../dataset/data_annotation/WildTrack/C_1.json'
+        path_c3 = '../dataset/data_annotation/WildTrack/C_3.json'
         
         
-        image_path_c4 = '../Dataset/Wildtrack_dataset/Image_subsets/C4'
+        image_path_c4 = '../dataset/Wildtrack_dataset/Image_subsets/C4'
         image_path_c6 = '../Dataset/Wildtrack_dataset/Image_subsets/C6'
         image_path3 = ''
         
-        image_path_c1 = '../Dataset/Wildtrack_dataset/Image_subsets/C1'
-        image_path_c3 = '../Dataset/Wildtrack_dataset/Image_subsets/C3'
+        image_path_c1 = '../dataset/Wildtrack_dataset/Image_subsets/C1'
+        image_path_c3 = '../dataset/Wildtrack_dataset/Image_subsets/C3'
         
-        json_3d_path = '../Dataset/WildTrack/mass_saving_result_1101_pfg/data_3D.json'
+        json_3d_path = '../dataset/WildTrack/mass_saving_result_1101_pfg/data_3D.json'
         
         
         I1 = np.array([[1743.4478759765625, 0.0, 934.5202026367188], [0.0, 1735.1566162109375, 444.3987731933594], [0.0, 0.0, 1.0]])
