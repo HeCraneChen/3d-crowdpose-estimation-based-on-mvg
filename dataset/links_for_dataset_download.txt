@@ -1,0 +1,7 @@
+links_for_original_dataset_download:
+
+chariot Mk I: https://data.vision.ee.ethz.ch/cvl/aess/dataset/
+LOEWENPLATZ: https://data.vision.ee.ethz.ch/cvl/aess/dataset/
+Wildtrack: https://www.epfl.ch/labs/cvlab/data/data-wildtrack/
+
+
